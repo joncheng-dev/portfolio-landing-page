@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(50, 180, 160, 0.25);
+  background-color: #fff8d6;
 }
 
 h1 {
@@ -7,6 +7,7 @@ h1 {
   border: 4px darkblue solid;
 }
 
+/* Parent containers */
 .container-jon-as-person {
   border: 4px black solid;
 }
@@ -15,8 +16,11 @@ h1 {
   border: 4px purple solid;
 }
 
+/* Child containers - Personal Information */
 .personal-about-me {
   border: 2px black dotted;
+  float: right;
+  width: 75%;
 }
 
 .personal-hobbies-interests {
@@ -27,10 +31,24 @@ h1 {
   border: 2px black dotted;
 }
 
+/* Child containers - Job Relevant */
 .job-related-projects {
   border: 2px purple dashed;
 }
 
 .job-related-gh-pages {
   border: 2px purple dashed;
+}
+
+/* Specific Containers - Personal Information*/
+#portrait-of-jon {
+  width: 20%;
+  margin: 1%;
+}
+
+/* Specific Containers - Job Relevant */
+.personal-about-me {
+  font-style: italic;
+  font-weight: 600;
+  font-size: larger;
 }
