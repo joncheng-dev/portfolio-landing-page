@@ -25,11 +25,11 @@ h2 {
 .container-jon-job-related {
   border: 4px purple dotted;
   margin: 1.5% 0 0 1%;
+  background-color: #675d5045;
 }
 
 /* Child containers - Personal Information */
 .personal-about-me {
-  border: 2px black dotted;
   float: right;
   width: 75%;
   padding: 0 2%;
@@ -37,7 +37,6 @@ h2 {
 }
 
 .personal-hobbies-interests {
-  border: 1px black dotted;
   width: 98%;
   margin: 1.5% 0 0 1%;
   box-sizing: border-box;
@@ -48,12 +47,14 @@ h2 {
   box-sizing: border-box;
   float: left;
   width: 98%;
+  padding: 2% 0 0 0;
   margin: 1.5% 0 1% 1%;
   background-color: #acbcff72;
 }
 
 /* Child containers - Job Relevant */
 .job-related-projects {
+  padding: 1.5% 2%;
   border: 2px purple dashed;
 }
 
@@ -61,6 +62,10 @@ h2 {
 #portrait-of-jon {
   width: 20%;
   margin: 1%;
+}
+
+.personal-about-me h3 {
+  margin: 0 0 2% 0;
 }
 
 .personal-about-me li {
