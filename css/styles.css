@@ -84,6 +84,51 @@ h1 {
   text-decoration: underline;
 }
 
+.background-education {
+  border: 1px black dotted;
+}
+
+.background-education-column-1 {
+  border: 1px black dotted;
+  float: left;
+  width: 47%;
+  padding: 1%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
+
+.background-education-column-2 {
+  border: 1px black dotted;
+  float: left;
+  width: 47%;
+  padding: 1%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
+
+.background-job-experience-and-why-programming {
+  border: 1px black dotted;
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.background-job-experience {
+  border: 1px black dotted;
+  width: 47%;
+  float: left;
+  margin: 0 1%;
+  box-sizing: border-box;
+}
+
+.background-why-programming {
+  border: 1px black dotted;
+  width: 47%;
+  float: left;
+  margin: 0 1%;
+  box-sizing: border-box;
+}
+
 /* Specific Containers - Job Relevant */
 .personal-about-me {
   font-size: larger;
