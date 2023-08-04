@@ -1,0 +1,36 @@
+body {
+  background-color: rgba(50, 180, 160, 0.25);
+}
+
+h1 {
+  text-align: center;
+  border: 4px darkblue solid;
+}
+
+.container-jon-as-person {
+  border: 4px black solid;
+}
+
+.container-jon-job-related {
+  border: 4px purple solid;
+}
+
+.personal-about-me {
+  border: 2px black dotted;
+}
+
+.personal-hobbies-interests {
+  border: 2px black dotted;
+}
+
+.personal-background {
+  border: 2px black dotted;
+}
+
+.job-related-projects {
+  border: 2px purple dashed;
+}
+
+.job-related-gh-pages {
+  border: 2px purple dashed;
+}
