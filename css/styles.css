@@ -10,6 +10,7 @@ h1 {
 /* Parent containers */
 .container-jon-as-person {
   border: 4px black solid;
+  overflow: auto;
 }
 
 .container-jon-job-related {
@@ -24,11 +25,16 @@ h1 {
 }
 
 .personal-hobbies-interests {
-  border: 2px black dotted;
+  border: 1px black dotted;
+  width: 98%;
+  box-sizing: border-box;
 }
 
 .personal-background {
   border: 2px black dotted;
+  box-sizing: border-box;
+  float: left;
+  width: 98%;
 }
 
 /* Child containers - Job Relevant */
@@ -49,4 +55,31 @@ h1 {
 /* Specific Containers - Job Relevant */
 .personal-about-me {
   font-size: larger;
+}
+
+.hobbies-interests-column-1 {
+  border: 1px black dotted;
+  float: left;
+  width: 30%;
+  padding: 1%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
+
+.hobbies-interests-column-2 {
+  border: 1px black dotted;
+  float: left;
+  width: 30%;
+  padding: 1%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
+
+.hobbies-interests-column-3 {
+  border: 1px black dotted;
+  float: left;
+  width: 30%;
+  padding: 1%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
 }
