@@ -15,7 +15,7 @@ h1 {
 }
 
 .container-jon-job-related {
-  border: 4px purple solid;
+  border: 4px purple dotted;
 }
 
 /* Child containers - Personal Information */
@@ -40,10 +40,6 @@ h1 {
 
 /* Child containers - Job Relevant */
 .job-related-projects {
-  border: 2px purple dashed;
-}
-
-.job-related-gh-pages {
   border: 2px purple dashed;
 }
 
@@ -86,30 +82,9 @@ h1 {
 
 .background-education {
   border: 1px black dotted;
-}
-
-.background-education-column-1 {
-  border: 1px black dotted;
-  float: left;
   width: 47%;
-  padding: 1%;
-  margin: 0 1.5%;
-  box-sizing: border-box;
-}
-
-.background-education-column-2 {
-  border: 1px black dotted;
   float: left;
-  width: 47%;
-  padding: 1%;
-  margin: 0 1.5%;
-  box-sizing: border-box;
-}
-
-.background-job-experience-and-why-programming {
-  border: 1px black dotted;
-  width: 100%;
-  float: left;
+  margin: 0 1%;
   box-sizing: border-box;
 }
 

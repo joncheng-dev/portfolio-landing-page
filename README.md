@@ -2,31 +2,31 @@
 
 #### By _**Jonathan Cheng**_
 
-#### _This is a website -- an independent project for Week 1 of Epicodus, demonstrating my ability in HTML and CSS. I plan for it to be an ongoing project with continual updates for my journey as a web developer._
+#### _A simple website portfolio for sharing my background, interests, and journey to becoming a web developer._
+
+## Link to Site on GitHub Pages
+
+- https://joncheng-dev.github.io/portfolio-landing-page/
 
 ## Technologies Used
 
 - _HTML_
 - _CSS_
+- _Bootstrap_
 
 ## Description
 
-_Currently this project uses HTML and vanilla CSS. I plan to update it with JavaScript and more._
+_This is my independent project for Week 1 of Epicodus, demonstrating my abilities in HTML and CSS. I plan for it to be an ongoing project with continual updates reflecting what I learn through my web development course at Epicodus. Currently this project uses HTML and CSS (some Bootstrap). I plan to update it with JavaScript later on._
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+- _Clone this repository from GitHub: https://github.com/joncheng-dev/portfolio-landing-page_
+- _Navigate to the project's root directory._
+- _Open index.html in your browser._
 
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+- _Currently viewing is ideal only for full-sized screens - not optimized for mobile._
 
 ## License
 
