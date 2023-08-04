@@ -3,19 +3,28 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-  border: 4px darkblue solid;
+h1,
+h2 {
   text-align: center;
+}
+
+.jumbotron {
+  margin: 2% 0;
+  padding: 3% 0;
+  background-color: #ffb84c98;
 }
 
 /* Parent containers */
 .container-jon-as-person {
   border: 4px black solid;
   overflow: auto;
+  background-color: #f5f0bb;
+  margin: 0 0 3% 0;
 }
 
 .container-jon-job-related {
   border: 4px purple dotted;
+  margin: 1.5% 0 0 1%;
 }
 
 /* Child containers - Personal Information */
@@ -23,19 +32,24 @@ h1 {
   border: 2px black dotted;
   float: right;
   width: 75%;
+  padding: 0 2%;
+  margin: 2% 0;
 }
 
 .personal-hobbies-interests {
   border: 1px black dotted;
   width: 98%;
+  margin: 1.5% 0 0 1%;
   box-sizing: border-box;
 }
 
 .personal-background {
-  border: 2px black dotted;
+  border: 4px black dotted;
   box-sizing: border-box;
   float: left;
   width: 98%;
+  margin: 1.5% 0 1% 1%;
+  background-color: #acbcff72;
 }
 
 /* Child containers - Job Relevant */
@@ -49,6 +63,15 @@ h1 {
   margin: 1%;
 }
 
+.personal-about-me li {
+  margin: 0 0 0.751% 0;
+}
+
+.personal-hobbies-interests h2 {
+  text-align: center;
+  padding: 0.5%;
+}
+
 .hobbies-interests-column-1 {
   border: 1px black dotted;
   float: left;
@@ -56,6 +79,7 @@ h1 {
   padding: 1%;
   margin: 0 1.5%;
   box-sizing: border-box;
+  background-color: #cbb27995;
 }
 
 .hobbies-interests-column-2 {
@@ -63,8 +87,9 @@ h1 {
   float: left;
   width: 30%;
   padding: 1%;
-  margin: 0 1.5%;
+  margin: 0 1.5% 1% 1.5%;
   box-sizing: border-box;
+  background-color: #cbb27995;
 }
 
 .hobbies-interests-column-3 {
@@ -74,6 +99,7 @@ h1 {
   padding: 1%;
   margin: 0 1.5%;
   box-sizing: border-box;
+  background-color: #cbb27995;
 }
 
 .topic {
@@ -84,24 +110,30 @@ h1 {
   border: 1px black dotted;
   width: 47%;
   float: left;
-  margin: 0 1%;
+  margin: 2% 1%;
+  padding: 1% 2%;
   box-sizing: border-box;
-}
-
-.background-job-experience {
-  border: 1px black dotted;
-  width: 47%;
-  float: left;
-  margin: 0 1%;
-  box-sizing: border-box;
+  background-color: #1b9c8555;
 }
 
 .background-why-programming {
   border: 1px black dotted;
   width: 47%;
   float: left;
-  margin: 0 1%;
+  margin: 2% 1% 0 1%;
+  padding: 1% 2%;
   box-sizing: border-box;
+  background-color: #1b9c8555;
+}
+
+.background-job-experience {
+  border: 1px black dotted;
+  width: 47%;
+  float: left;
+  margin: 2% 1%;
+  padding: 1% 2%;
+  box-sizing: border-box;
+  background-color: #1b9c8555;
 }
 
 /* Specific Containers - Job Relevant */
