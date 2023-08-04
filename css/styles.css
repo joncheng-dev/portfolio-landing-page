@@ -1,10 +1,11 @@
 body {
   background-color: #fff8d6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-  text-align: center;
   border: 4px darkblue solid;
+  text-align: center;
 }
 
 /* Parent containers */
