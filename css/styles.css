@@ -52,6 +52,24 @@ h2 {
   background-color: #acbcff72;
 }
 
+.hobbies-interests-category {
+  border: 1px black dotted;
+  float: left;
+  width: 30%;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: #cbb27995;
+}
+
+.background-category {
+  border: 1px black dotted;
+  float: left;
+  width: 47%;
+  padding: 1% 2%;
+  box-sizing: border-box;
+  background-color: #1b9c8555;
+}
+
 /* Child containers - Job Relevant */
 .job-related-projects {
   padding: 1.5% 2%;
@@ -77,68 +95,26 @@ h2 {
   padding: 0.5%;
 }
 
-.hobbies-interests-column-1 {
-  border: 1px black dotted;
-  float: left;
-  width: 30%;
-  padding: 1%;
+#hobbies-interests-column-1,
+#hobbies-interests-column-3 {
   margin: 0 1.5%;
-  box-sizing: border-box;
-  background-color: #cbb27995;
 }
 
-.hobbies-interests-column-2 {
-  border: 1px black dotted;
-  float: left;
-  width: 30%;
-  padding: 1%;
+#hobbies-interests-column-2 {
   margin: 0 1.5% 1% 1.5%;
-  box-sizing: border-box;
-  background-color: #cbb27995;
-}
-
-.hobbies-interests-column-3 {
-  border: 1px black dotted;
-  float: left;
-  width: 30%;
-  padding: 1%;
-  margin: 0 1.5%;
-  box-sizing: border-box;
-  background-color: #cbb27995;
 }
 
 .topic {
   text-decoration: underline;
 }
 
-.background-education {
-  border: 1px black dotted;
-  width: 47%;
-  float: left;
+#background-education,
+#background-job-experience {
   margin: 2% 1%;
-  padding: 1% 2%;
-  box-sizing: border-box;
-  background-color: #1b9c8555;
 }
 
-.background-why-programming {
-  border: 1px black dotted;
-  width: 47%;
-  float: left;
+#background-why-programming {
   margin: 2% 1% 0 1%;
-  padding: 1% 2%;
-  box-sizing: border-box;
-  background-color: #1b9c8555;
-}
-
-.background-job-experience {
-  border: 1px black dotted;
-  width: 47%;
-  float: left;
-  margin: 2% 1%;
-  padding: 1% 2%;
-  box-sizing: border-box;
-  background-color: #1b9c8555;
 }
 
 /* Specific Containers - Job Relevant */
